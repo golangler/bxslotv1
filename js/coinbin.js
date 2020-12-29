@@ -787,7 +787,7 @@ $(document).ready(function() {
 
 	$("#donateTxBtn").click(function(){
 
-		var exists = false;
+		var exists = true;
 
 		$.each($("#recipients .address"), function(i,o){
 			if($(o).val() == coinjs.developer){
